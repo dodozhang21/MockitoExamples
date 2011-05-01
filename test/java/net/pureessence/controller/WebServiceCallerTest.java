@@ -25,7 +25,7 @@ public class WebServiceCallerTest {
     @Before
     public void setUp() throws Exception {
         webServiceCaller.setStatusUrl(STATUS_URL);
-        webServiceCaller.setTimeout(2000);
+        webServiceCaller.setTimeout(3000);
     }
 
     @Test
