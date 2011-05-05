@@ -62,6 +62,12 @@
             <artifactId>mockito-all</artifactId>
             <version>1.8.5</version>
         </dependency>
+        <dependency>
+            <groupId>org.powermock</groupId>
+            <artifactId>powermock</artifactId>
+            <version>1.4.9</version>
+        </dependency>
+
         <!--<dependency>-->
             <!--<groupId>org.hibernate</groupId>-->
             <!--<artifactId>hibernate-validator</artifactId>-->

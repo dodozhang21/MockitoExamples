@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e9869d3-0712-4187-a1b4-5f768b7a2454" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.txt" afterPath="$PROJECT_DIR$/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MockitoExamples.iws" afterPath="$PROJECT_DIR$/MockitoExamples.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="MockitoExamples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,10 +62,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="155" selection-start="578" selection-end="578" vertical-scroll-proportion="0.24285714">
+            <state line="8" column="155" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="69" column="0" selection-start="2469" selection-end="2469" vertical-scroll-proportion="0.7329843">
               <folding />
             </state>
           </provider>
@@ -91,6 +101,7 @@
         <option value="$PROJECT_DIR$/test/java/net/pureessence/controller/PersonControllerTest.java" />
         <option value="$PROJECT_DIR$/main/java/net/pureessence/controller/WebServiceCallerWithoutHelper.java" />
         <option value="$PROJECT_DIR$/README.txt" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -564,11 +575,6 @@
         <state line="2" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/java/net/pureessence/dao/PersonDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="36" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
@@ -615,7 +621,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="155" selection-start="578" selection-end="578" vertical-scroll-proportion="0.24285714">
+        <state line="8" column="155" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="0" selection-start="2469" selection-end="2469" vertical-scroll-proportion="0.7329843">
           <folding />
         </state>
       </provider>
