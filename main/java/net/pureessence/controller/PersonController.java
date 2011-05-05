@@ -44,7 +44,8 @@ public class PersonController {
 
     @RequestMapping(value = "delete/{personId}", method = RequestMethod.DELETE)
     public String delete(@PathVariable Long personId) {
-        personDao.delete(personId);
+        Person person = personDao.get(personId);
+        personDao.delete(person);
         log.info(String.format("deleted person with id '%s'", personId));
         log.info("redirecting to persons");
         return "redirect:/persons";

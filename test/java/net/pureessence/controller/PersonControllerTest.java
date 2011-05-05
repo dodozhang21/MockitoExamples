@@ -35,8 +35,8 @@ public class PersonControllerTest {
     @Test
     public void init() {
         Person person = new Person();
-        person.setFirstName("Dodo");
-        person.setLastName("Zhang");
+        person.setFirstName("Misty");
+        person.setLastName("Smith");
         when(personDao.getPersons()).thenReturn(Arrays.asList(person));
         ArgumentCaptor<List> personsCaptor = ArgumentCaptor.forClass(List.class);
         ArgumentCaptor<String> logCaptor = ArgumentCaptor.forClass(String.class);
@@ -48,8 +48,8 @@ public class PersonControllerTest {
 
         assertEquals(1, personsCaptor.getValue().size());
         Person personCaptured = (Person) personsCaptor.getValue().get(0);
-        assertEquals("Dodo", personCaptured.getFirstName());
-        assertEquals("Zhang", personCaptured.getLastName());
+        assertEquals("Misty", personCaptured.getFirstName());
+        assertEquals("Smith", personCaptured.getLastName());
         assertEquals("found 1 persons", logCaptor.getValue());
         assertEquals("persons", view);
     }
@@ -76,7 +76,8 @@ public class PersonControllerTest {
 
         String view = controller.delete(1L);
 
-        verify(personDao).delete(anyLong());
+        verify(personDao).get(1L);
+        verify(personDao).delete((Person) any());
         verify(log, times(2)).info(logCaptor.capture());
 
         assertEquals("deleted person with id '1'", logCaptor.getAllValues().get(0));

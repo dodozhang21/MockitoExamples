@@ -11,12 +11,15 @@ public class PersonDao extends JdbcDaoSupport {
     public void save(Person person) {
 
     }
+
     public Person get(Long id) {
         return null;
     }
-    public void delete(Long id) {
+
+    public void delete(Person person) {
 
     }
+
     public List<Person> getPersons() {
         return null;
     }
