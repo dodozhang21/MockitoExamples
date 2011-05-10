@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/main/properties" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/main/resources" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -30,6 +31,10 @@
     <orderEntry type="library" name="Maven: org.powermock:powermock-reflect:1.4.9" level="project" />
     <orderEntry type="library" name="Maven: org.objenesis:objenesis:1.2" level="project" />
     <orderEntry type="library" name="Maven: org.javassist:javassist:3.14.0-GA" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjrt:1.6.10" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.6.10" level="project" />
+    <orderEntry type="library" name="Maven: cglib:cglib:2.2" level="project" />
+    <orderEntry type="library" name="Maven: asm:asm:3.1" level="project" />
     <orderEntry type="library" name="Maven: commons-httpclient:commons-httpclient:3.1" level="project" />
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.2" level="project" />
   </component>

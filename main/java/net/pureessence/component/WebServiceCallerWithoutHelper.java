@@ -1,4 +1,4 @@
-package net.pureessence.controller;
+package net.pureessence.component;
 
 public class WebServiceCallerWithoutHelper {
 }

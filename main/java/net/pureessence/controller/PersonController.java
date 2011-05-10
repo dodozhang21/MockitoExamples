@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@Controller
-@RequestMapping("/persons")
+//@Controller
+//@RequestMapping("/persons")
 public class PersonController {
     @Autowired
     private PersonDao personDao;

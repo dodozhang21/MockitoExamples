@@ -1,16 +1,14 @@
-package net.pureessence.controller;
+package net.pureessence.component;
 
-import net.pureessence.util.HttpMethodHelper;
 import org.apache.commons.httpclient.methods.PostMethod;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.util.StopWatch;
-import sun.security.provider.SystemSigner;
+import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 
+@Component(value = "webServiceCaller")
 public class WebServiceCaller {
-    @Autowired
     private HttpMethodHelper httpMethodHelper;
     private String statusUrl;
     private long timeout;
@@ -30,13 +28,23 @@ public class WebServiceCaller {
         return true;
     }
 
+    public String getJobStatus() throws IOException {
+        PostMethod method = httpMethodHelper.createPostMethod(statusUrl);
+
+        return method.getResponseBodyAsString();
+    }
+
     @Autowired
     public void setStatusUrl(@Value("${webservice.url}")String statusUrl) {
         this.statusUrl = statusUrl;
     }
 
     @Autowired
-    public void setTimeout(@Value("${webservice.timeout}")long timeout) {
+    public void setTimeout(@Value(value = "${webservice.timeout}")Long timeout) {
         this.timeout = timeout;
+    }
+
+    public void setHttpMethodHelper(HttpMethodHelper httpMethodHelper) {
+        this.httpMethodHelper = httpMethodHelper;
     }
 }

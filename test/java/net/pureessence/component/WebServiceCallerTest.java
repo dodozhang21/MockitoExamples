@@ -1,6 +1,5 @@
-package net.pureessence.controller;
+package net.pureessence.component;
 
-import net.pureessence.util.HttpMethodHelper;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -25,7 +24,7 @@ public class WebServiceCallerTest {
     @Before
     public void setUp() throws Exception {
         webServiceCaller.setStatusUrl(STATUS_URL);
-        webServiceCaller.setTimeout(3000);
+        webServiceCaller.setTimeout(3000L);
     }
 
     @Test
