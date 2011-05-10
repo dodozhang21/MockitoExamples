@@ -7,7 +7,7 @@ import org.aspectj.lang.annotation.Aspect;
 import org.springframework.beans.factory.annotation.Autowired;
 
 @Aspect
-public class ExampleAspect {
+public class WebServiceAspect {
     private Log log;
 
     @Around("execution(* net.pureessence.component.WebServiceCaller.getJobStatus())")

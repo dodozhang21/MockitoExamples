@@ -21,13 +21,13 @@ import static org.mockito.Mockito.when;
 
 @ContextConfiguration(locations = {"/aop.xml"})
 @RunWith(SpringJUnit4ClassRunner.class)
-public class ExampleAspectTest {
+public class WebServiceAspectTest {
     @Autowired
     @Qualifier("webServiceCaller")
     private WebServiceCaller webServiceCaller;
 
     @Autowired
-    private ExampleAspect exampleAspect;
+    private WebServiceAspect webServiceAspect;
 
     @Mock
     private Log log;
@@ -38,7 +38,7 @@ public class ExampleAspectTest {
     @Before
     public void setUp() throws Exception {
         MockitoAnnotations.initMocks(this);
-        exampleAspect.setLog(log);
+        webServiceAspect.setLog(log);
         webServiceCaller.setHttpMethodHelper(httpMethodHelper);
     }
 

@@ -14,7 +14,7 @@
 
     <aop:config proxy-target-class="true"/>
     <bean class="org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator"/>
-    <bean id="exampleAspect" class="net.pureessence.aspect.ExampleAspect"/>
+    <bean id="webServiceAspect" class="net.pureessence.aspect.WebServiceAspect"/>
 
     <context:component-scan base-package="net.pureessence.component"/>
 </beans>
