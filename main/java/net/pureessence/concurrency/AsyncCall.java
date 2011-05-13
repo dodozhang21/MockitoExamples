@@ -18,7 +18,7 @@ public class AsyncCall {
     @Autowired
     private ThreadPoolTaskExecutor taskExecutor;
 
-    public void getPdf() {
+    public void getPdf(int number) {
         Future<String> futureTask = taskExecutor.submit(new GetPdf());
         while (!futureTask.isDone()) {
             log.info("Task not yet completed.");
@@ -28,7 +28,7 @@ public class AsyncCall {
                 log.info("Will check after 1/2 sec.");
             }
         }
-        log.info("after the call");
+        log.info(String.format("after the call #%s", number));
         try {
             log.info(futureTask.get());
         } catch (InterruptedException e) {

@@ -18,6 +18,8 @@
          <property name="queueCapacity" value="25" />
     </bean>
 
-    <context:component-scan base-package="net.pureessence.concurrency"/>
+    <bean id="asyncCall1" class="net.pureessence.concurrency.AsyncCall"/>
+    <bean id="asyncCall2" class="net.pureessence.concurrency.AsyncCall"/>
+    <bean id="asyncCall3" class="net.pureessence.concurrency.AsyncCall"/>
 
 </beans>
