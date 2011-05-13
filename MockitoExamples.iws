@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e9869d3-0712-4187-a1b4-5f768b7a2454" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/net/pureessence/concurrency/AsyncCall.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/resources/executor.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/java/net/pureessence/concurrency/AsynCallsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MockitoExamples.iws" afterPath="$PROJECT_DIR$/MockitoExamples.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.txt" afterPath="$PROJECT_DIR$/README.txt" />
     </list>
     <ignored path="MockitoExamples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="executor.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="executor.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/resources/executor.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="89" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.45945945">
+            <state line="11" column="85" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -88,10 +85,8 @@
       <file leaf-file-name="AsynCallsTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/java/net/pureessence/concurrency/AsynCallsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="33" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="9" column="34" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,10 +120,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.txt" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="22" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
+            <state line="11" column="44" selection-start="793" selection-end="793" vertical-scroll-proportion="0.34501845">
               <folding />
             </state>
           </provider>
@@ -184,13 +179,13 @@
         <option value="$PROJECT_DIR$/main/java/net/pureessence/aspect/ExampleAspect.java" />
         <option value="$PROJECT_DIR$/main/java/net/pureessence/component/WebServiceCaller.java" />
         <option value="$PROJECT_DIR$/test/java/net/pureessence/aspect/ExampleAspectTest.java" />
-        <option value="$PROJECT_DIR$/README.txt" />
         <option value="$PROJECT_DIR$/main/java/net/pureessence/aspect/WebServiceAspect.java" />
         <option value="$PROJECT_DIR$/main/resources/aop.xml" />
         <option value="$PROJECT_DIR$/test/java/net/pureessence/aspect/WebServiceAspectTest.java" />
         <option value="$PROJECT_DIR$/main/java/net/pureessence/concurrency/AsyncCall.java" />
         <option value="$PROJECT_DIR$/test/java/net/pureessence/concurrency/AsynCallsTest.java" />
         <option value="$PROJECT_DIR$/main/resources/executor.xml" />
+        <option value="$PROJECT_DIR$/README.txt" />
       </list>
     </option>
   </component>
@@ -739,7 +734,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973261" sideWeight="0.67410713" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32589287" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32589287" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924107" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -818,11 +813,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/java/net/pureessence/component/WebServiceCallerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="24" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" />
@@ -854,15 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/java/net/pureessence/concurrency/AsynCallsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="33" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/resources/aop.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="9" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0">
@@ -872,7 +853,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/resources/executor.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="89" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.45945945">
+        <state line="11" column="85" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/net/pureessence/concurrency/AsynCallsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="34" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="44" selection-start="793" selection-end="793" vertical-scroll-proportion="0.34501845">
           <folding />
         </state>
       </provider>
