@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e9869d3-0712-4187-a1b4-5f768b7a2454" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/java/net/pureessence/component/WebServiceCallerWithoutHelperTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MockitoExamples.iml" afterPath="$PROJECT_DIR$/MockitoExamples.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MockitoExamples.ipr" afterPath="$PROJECT_DIR$/MockitoExamples.ipr" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/net/pureessence/domain/ObjectWithList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/net/pureessence/other/ExampleService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/java/net/pureessence/other/ExampleServiceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/java/net/pureessence/other/ExampleServiceWorkAroundTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MockitoExamples.iws" afterPath="$PROJECT_DIR$/MockitoExamples.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.txt" afterPath="$PROJECT_DIR$/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/net/pureessence/component/WebServiceCallerWithoutHelper.java" afterPath="$PROJECT_DIR$/main/java/net/pureessence/component/WebServiceCallerWithoutHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="MockitoExamples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,87 +69,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AsynCallsTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/java/net/pureessence/concurrency/AsynCallsTest.java">
+      <file leaf-file-name="ObjectWithList.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/java/net/pureessence/domain/ObjectWithList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="36" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="10" column="17" selection-start="86" selection-end="316" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AsyncCall.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/java/net/pureessence/concurrency/AsyncCall.java">
+      <file leaf-file-name="ExampleService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/java/net/pureessence/other/ExampleService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="4" selection-start="468" selection-end="527" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="12" column="43" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aop.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/resources/aop.xml">
+      <file leaf-file-name="ExampleServiceTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/java/net/pureessence/other/ExampleServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="9" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="24" column="16" selection-start="0" selection-end="953" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="env.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/properties/env.properties">
+      <file leaf-file-name="ExampleServiceWorkAroundTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/java/net/pureessence/other/ExampleServiceWorkAroundTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="18" column="0" selection-start="462" selection-end="1087" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.txt" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="9" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
+            <state line="12" column="28" selection-start="935" selection-end="935" vertical-scroll-proportion="0.3623446">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebServiceCallerTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/java/net/pureessence/component/WebServiceCallerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="72" selection-start="404" selection-end="476" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebServiceCaller.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/java/net/pureessence/component/WebServiceCaller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="4" selection-start="369" selection-end="1780" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebServiceCallerWithoutHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/java/net/pureessence/component/WebServiceCallerWithoutHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="5" selection-start="1303" selection-end="1303" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebServiceCallerWithoutHelperTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/java/net/pureessence/component/WebServiceCallerWithoutHelperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="44" selection-start="588" selection-end="588" vertical-scroll-proportion="0.23561151">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -178,10 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/java/net/pureessence/controller/WebServiceCallerTest.java" />
-        <option value="$PROJECT_DIR$/main/java/net/pureessence/dao/PersonDao.java" />
-        <option value="$PROJECT_DIR$/main/java/net/pureessence/controller/WebServiceCaller.java" />
-        <option value="$PROJECT_DIR$/main/java/net/pureessence/aspect/ExampleAspect.java" />
         <option value="$PROJECT_DIR$/main/java/net/pureessence/component/WebServiceCaller.java" />
         <option value="$PROJECT_DIR$/test/java/net/pureessence/aspect/ExampleAspectTest.java" />
         <option value="$PROJECT_DIR$/main/java/net/pureessence/aspect/WebServiceAspect.java" />
@@ -193,6 +156,10 @@
         <option value="$PROJECT_DIR$/main/java/net/pureessence/component/WebServiceCallerWithoutHelper.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/test/java/net/pureessence/component/WebServiceCallerWithoutHelperTest.java" />
+        <option value="$PROJECT_DIR$/main/java/net/pureessence/domain/ObjectWithList.java" />
+        <option value="$PROJECT_DIR$/main/java/net/pureessence/other/ExampleService.java" />
+        <option value="$PROJECT_DIR$/test/java/net/pureessence/other/ExampleServiceTest.java" />
+        <option value="$PROJECT_DIR$/test/java/net/pureessence/other/ExampleServiceWorkAroundTest.java" />
         <option value="$PROJECT_DIR$/README.txt" />
       </list>
     </option>
@@ -290,6 +257,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="other" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MockitoExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MockitoExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pureessence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -353,6 +346,58 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MockitoExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MockitoExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pureessence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="other" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MockitoExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MockitoExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pureessence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -457,33 +502,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="net.pureessence.other" />
       <recent name="net.pureessence.component" />
       <recent name="net.pureessence.aspect" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WebServiceCallerWithoutHelperTest">
-    <configuration default="false" name="PersonControllerTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="MockitoExamples" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="net.pureessence.controller" />
-      <option name="MAIN_CLASS_NAME" value="net.pureessence.controller.PersonControllerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ExampleServiceWorkAroundTest">
     <configuration default="false" name="All in MockitoExamples" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="MockitoExamples" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -556,6 +580,28 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="net.pureessence.component" />
       <option name="MAIN_CLASS_NAME" value="net.pureessence.component.WebServiceCallerWithoutHelperTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExampleServiceWorkAroundTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="MockitoExamples" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="net.pureessence.other" />
+      <option name="MAIN_CLASS_NAME" value="net.pureessence.other.ExampleServiceWorkAroundTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -679,11 +725,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.PersonControllerTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.All in MockitoExamples" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.AsynCallsTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.AsynCallsTest.getPdf" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.WebServiceCallerWithoutHelperTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All in MockitoExamples" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AsynCallsTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AsynCallsTest.getPdf" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.WebServiceCallerWithoutHelperTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ExampleServiceTest" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -795,26 +841,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/java/net/pureessence/controller/PersonControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="26" selection-start="1749" selection-end="1749" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/net/pureessence/aspect/WebServiceAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/net/pureessence/component/HttpMethodHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="21" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/net/pureessence/dao/PersonDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="204" selection-end="215" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/java/net/pureessence/aspect/WebServiceAspectTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="738" selection-end="825" vertical-scroll-proportion="0.0" />
@@ -856,13 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="21" selection-start="3803" selection-end="3803" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/java/net/pureessence/component/WebServiceCallerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="72" selection-start="404" selection-end="476" vertical-scroll-proportion="0.0">
@@ -879,19 +898,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.txt">
+    <entry file="file://$PROJECT_DIR$/test/java/net/pureessence/component/WebServiceCallerWithoutHelperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="9" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
+        <state line="16" column="44" selection-start="588" selection-end="588" vertical-scroll-proportion="0.22743055">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/net/pureessence/domain/ObjectWithList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="17" selection-start="86" selection-end="316" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/net/pureessence/other/ExampleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="43" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/net/pureessence/other/ExampleServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="16" selection-start="0" selection-end="953" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="21" selection-start="3803" selection-end="3803" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/java/net/pureessence/component/WebServiceCallerWithoutHelperTest.java">
+    <entry file="file://$PROJECT_DIR$/test/java/net/pureessence/other/ExampleServiceWorkAroundTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="44" selection-start="588" selection-end="588" vertical-scroll-proportion="0.23561151">
+        <state line="18" column="0" selection-start="462" selection-end="1087" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="28" selection-start="935" selection-end="935" vertical-scroll-proportion="0.3623446">
+          <folding />
         </state>
       </provider>
     </entry>
