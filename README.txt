@@ -6,7 +6,7 @@
 - etc http://mockito.googlecode.com/svn/tags/1.8.5/javadoc/org/mockito/Mockito.html
 
 TODO:
-add powermock example with newing http://www.gitshah.com/2010/05/how-to-mock-constructors-using.html http://code.google.com/p/powermock/wiki/MockitoUsage13 (syntactically harmonious with mockito)
-add aop example of hybrid testing with spring test & mockito (5/9/2011 DONE)
+add (5/17/2011 DONE)powermock example with newing http://www.gitshah.com/2010/05/how-to-mock-constructors-using.html http://code.google.com/p/powermock/wiki/MockitoUsage13 (syntactically harmonious with mockito)
+add (5/9/2011 DONE)aop example of hybrid testing with spring test & mockito
 add example for callback using Answer? Future stuff?
 add eclipse static import setting screenshot

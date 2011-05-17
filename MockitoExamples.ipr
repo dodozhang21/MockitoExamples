@@ -420,15 +420,15 @@
         <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: junit:junit:4.5">
+    <library name="Maven: junit:junit:4.7">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.5/junit-4.5.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.7/junit-4.7.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.5/junit-4.5-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.7/junit-4.7-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.5/junit-4.5-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.7/junit-4.7-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.aspectj:aspectjrt:1.6.10">
@@ -486,6 +486,28 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/objenesis/objenesis/1.2/objenesis-1.2-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.powermock:powermock-api-mockito:1.4.9">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-api-mockito/1.4.9/powermock-api-mockito-1.4.9.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-api-mockito/1.4.9/powermock-api-mockito-1.4.9-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-api-mockito/1.4.9/powermock-api-mockito-1.4.9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.powermock:powermock-api-support:1.4.9">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-api-support/1.4.9/powermock-api-support-1.4.9.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-api-support/1.4.9/powermock-api-support-1.4.9-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-api-support/1.4.9/powermock-api-support-1.4.9-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.powermock:powermock-core:1.4.9">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-core/1.4.9/powermock-core-1.4.9.jar!/" />
@@ -495,6 +517,28 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-core/1.4.9/powermock-core-1.4.9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.powermock:powermock-module-junit4-common:1.4.9">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-module-junit4-common/1.4.9/powermock-module-junit4-common-1.4.9.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-module-junit4-common/1.4.9/powermock-module-junit4-common-1.4.9-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-module-junit4-common/1.4.9/powermock-module-junit4-common-1.4.9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.powermock:powermock-module-junit4:1.4.9">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-module-junit4/1.4.9/powermock-module-junit4-1.4.9.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-module-junit4/1.4.9/powermock-module-junit4-1.4.9-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-module-junit4/1.4.9/powermock-module-junit4-1.4.9-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.powermock:powermock-reflect:1.4.9">
