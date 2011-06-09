@@ -9,5 +9,6 @@ TODO:
 (5/17/2011 DONE) add powermock example with newing http://www.gitshah.com/2010/05/how-to-mock-constructors-using.html http://code.google.com/p/powermock/wiki/MockitoUsage13 (syntactically harmonious with mockito)
 (5/9/2011 DONE) add aop example of hybrid testing with spring test & mockito
 (5/17/2011 DONE) add example of weirdness in @InjectMocks - submitted issue to mockito http://code.google.com/p/mockito/issues/detail?id=262
+add example of custom matcher
 add example for callback using Answer? Future stuff?
 add eclipse static import setting screenshot
