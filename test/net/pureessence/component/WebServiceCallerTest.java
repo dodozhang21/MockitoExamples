@@ -37,7 +37,7 @@ public class WebServiceCallerTest {
 
     @Test(expected = RuntimeException.class)
     public void testIsJobFinishedTimeout() throws Exception {
-        when(httpMethodHelper.createPostMethod(STATUS_URL).getResponseBodyAsString()).thenReturn("false", "false", "false", "true");
+        when(httpMethodHelper.createPostMethod(STATUS_URL).getResponseBodyAsString()).thenReturn("false", "false", "false", "false", "true");
 
         boolean result = webServiceCaller.isJobFinished();
         assertTrue(result);

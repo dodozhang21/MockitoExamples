@@ -1,7 +1,4 @@
-target
-.project
-.settings/
-.classpath
+target/
 .idea/
 MockitoExamples.iml
 MockitoExamples.ipr
