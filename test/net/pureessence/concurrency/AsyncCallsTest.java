@@ -11,7 +11,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @ContextConfiguration(locations = {"/executor.xml"})
 @RunWith(SpringJUnit4ClassRunner.class)
-public class AsynCallsTest {
+public class AsyncCallsTest {
     @Autowired
     private ThreadPoolTaskExecutor taskExecutor;
 

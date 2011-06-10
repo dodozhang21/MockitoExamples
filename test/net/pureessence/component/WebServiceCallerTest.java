@@ -1,5 +1,8 @@
 package net.pureessence.component;
 
+import static org.junit.Assert.*;
+import static org.mockito.Mockito.*;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,9 +10,6 @@ import org.mockito.Answers;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
-
-import static org.junit.Assert.assertTrue;
-import static org.mockito.Mockito.when;
 
 @RunWith(MockitoJUnitRunner.class)
 public class WebServiceCallerTest {
@@ -21,22 +21,30 @@ public class WebServiceCallerTest {
     @InjectMocks
     private WebServiceCaller webServiceCaller = new WebServiceCaller();
 
+    @Test
+    public void testIsJobFinished() throws Exception {
+    	when(httpMethodHelper.createPostMethod(STATUS_URL).getResponseBodyAsString()).thenReturn(
+    			"false", 
+    			"false", 
+    			"true");
+    	
+    	boolean result = webServiceCaller.isJobFinished();
+    	assertTrue(result);
+    }
     @Before
     public void setUp() throws Exception {
         webServiceCaller.setStatusUrl(STATUS_URL);
         webServiceCaller.setTimeout(3000L);
     }
 
-    @Test
-    public void testIsJobFinished() throws Exception {
-        when(httpMethodHelper.createPostMethod(STATUS_URL).getResponseBodyAsString()).thenReturn("false", "false", "true");
-
-        boolean result = webServiceCaller.isJobFinished();
-        assertTrue(result);
-    }
 
     @Test(expected = RuntimeException.class)
     public void testIsJobFinishedTimeout() throws Exception {
+    	// without deep stub you'd do
+//    	PostMethod postMethod = mock(PostMethod.class);
+//    	when(httpMethodHelper.createPostMethod(STATUS_URL)).thenReturn(postMethod);
+//    	when(postMethod.getResponseBodyAsString()).thenReturn("false");
+    	
         when(httpMethodHelper.createPostMethod(STATUS_URL).getResponseBodyAsString()).thenReturn("false", "false", "false", "false", "true");
 
         boolean result = webServiceCaller.isJobFinished();
