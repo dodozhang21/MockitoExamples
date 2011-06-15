@@ -48,7 +48,12 @@ public class CustomMatcherExampleTest {
 		Record r2 = mock(Record.class);
 		
 		// mocking
-		when(searchDao.getRecordsByKey(argThat(new KeyStatePostalCodeMatcher(state, postalCode)))).thenReturn(Arrays.asList(r1, r2));
+		when(
+			searchDao.getRecordsByKey(
+					argThat(new KeyStatePostalCodeMatcher(state, postalCode))
+				)
+			).thenReturn(Arrays.asList(r1, r2)
+		);
 	
 		// -----act
 		Record matchingRecord = example.getClosetMatchingRecord(keys);
