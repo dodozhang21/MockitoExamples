@@ -3,3 +3,4 @@ target/
 MockitoExamples.iml
 MockitoExamples.ipr
 MockitoExamples.iws
+.cvsignore

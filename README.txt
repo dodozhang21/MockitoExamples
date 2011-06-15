@@ -1,14 +1,17 @@
-- autowiring  @InjectMocks
-- deep stub (look up mockito defaults) (doesn't work on generics yet http://code.google.com/p/mockito/issues/detail?id=251)
-- thenReturn vs doReturn for voids
-- any matcher (Warning on argument matchers:If you are using argument matchers, all arguments have to be provided by matchers.)
-- chained returns
-- etc http://mockito.googlecode.com/svn/tags/1.8.5/javadoc/org/mockito/Mockito.html
-
-TODO:
-(5/17/2011 DONE) add powermock example with newing http://www.gitshah.com/2010/05/how-to-mock-constructors-using.html http://code.google.com/p/powermock/wiki/MockitoUsage13 (syntactically harmonious with mockito)
-(5/9/2011 DONE) add aop example of hybrid testing with spring test & mockito
-(5/17/2011 DONE) add example of weirdness in @InjectMocks - submitted issue to mockito http://code.google.com/p/mockito/issues/detail?id=262
-add example of custom matcher
-add example for callback using Answer? Future stuff?
-add eclipse static import setting screenshot
+Test Doubles (Mocking Terminologies) 
+ - http://tinyurl.com/testdoubles
+ 
+Mockito Blog Entry by Its Author
+ - http://monkeyisland.pl/2008/01/14/mockito/
+Latest Mockito API
+ - http://mockito.googlecode.com/svn/tags/latest/javadoc/org/mockito/Mockito.html
+ 
+More in Mockito Matchers
+ - http://mockito.googlecode.com/svn/tags/latest/javadoc/org/mockito/Matchers.html
+ 
+Aspect Oriented Programming with Spring
+ - http://static.springsource.org/spring/docs/3.0.x/reference/aop.html
+PowerMock API
+ - http://code.google.com/p/powermock/wiki/MockitoUsage13
+MockitoExamples Git Repository
+ - https://github.com/dodozhang21/MockitoExamples

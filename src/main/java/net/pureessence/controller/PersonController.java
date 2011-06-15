@@ -21,7 +21,7 @@ public class PersonController {
     @Autowired
     private Log log;
 
-    @Autowired
+    @Autowired 
     private PersonForm personForm;
 
     @RequestMapping(method = RequestMethod.GET)
@@ -36,7 +36,6 @@ public class PersonController {
     public String add(Person person, BindingResult result) {
         if (result.hasErrors()) {
             log.info("validation error occurred");
-//            log.info("validation error occurred 2");
             return "persons/add";
         }
         personDao.save(person);

@@ -1,14 +1,15 @@
 package net.pureessence.other;
 
 
-import net.pureessence.domain.ObjectWithList;
-import org.springframework.beans.factory.annotation.Autowired;
-
 import java.util.Arrays;
 import java.util.List;
 
+import net.pureessence.domain.ObjectWithList;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class ExampleService {
-    public static final List<String> CONSTANTS = Arrays.asList("c1", "c1");
+    public static final List<String> CONSTANTS = Arrays.asList("c1", "c2");
 
     private ObjectWithList objectWithList;
 

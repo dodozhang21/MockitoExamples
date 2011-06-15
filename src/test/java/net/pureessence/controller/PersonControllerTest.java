@@ -1,8 +1,12 @@
 package net.pureessence.controller;
 
-import static junit.framework.Assert.*;
-import static org.mockito.Matchers.*;
-import static org.mockito.Mockito.*;
+import static junit.framework.Assert.assertEquals;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.verifyZeroInteractions;
+import static org.mockito.Mockito.when;
 
 import java.util.Arrays;
 import java.util.List;
@@ -18,7 +22,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 import org.springframework.validation.BindingResult;
-
+ 
 @RunWith(MockitoJUnitRunner.class)
 public class PersonControllerTest {
     @Mock
@@ -33,7 +37,7 @@ public class PersonControllerTest {
     @InjectMocks
     private PersonController controller = new PersonController();
 
-    @SuppressWarnings({ "unchecked", "rawtypes" })
+    @SuppressWarnings({ "rawtypes", "unchecked" })
 	@Test
     public void init() {
         Person person = new Person();
@@ -66,15 +70,9 @@ public class PersonControllerTest {
         String view = controller.add(person, result);
 
         verify(log).info(logCaptor.capture());
-//        verify(log, times(2)).info(logCaptor.capture());
         verifyZeroInteractions(personDao);
 
         assertEquals("validation error occurred", logCaptor.getValue());
-//        assertEquals(2, logCaptor.getAllValues().size());
-//        String value1 = logCaptor.getAllValues().get(0);
-//        String value2 = logCaptor.getAllValues().get(1);
-//        assertEquals("validation error occurred", value1);
-//        assertEquals("validation error occurred 2", value2);
         assertEquals("persons/add", view);
     }
 

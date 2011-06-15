@@ -1,10 +1,10 @@
 package net.pureessence.component;
 
+import java.io.IOException;
+
 import org.apache.commons.httpclient.methods.PostMethod;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-
-import java.io.IOException;
 
 public class WebServiceCallerWithoutHelper {
     private String statusUrl;
@@ -17,7 +17,11 @@ public class WebServiceCallerWithoutHelper {
         while(!result) {
             Thread.sleep(1000L);
             if((System.currentTimeMillis() - start) > timeout) {
-                throw new RuntimeException(String.format("request timed out after %s seconds", (System.currentTimeMillis() - start)));
+            	throw new RuntimeException(
+                		String.format("request timed out after %s seconds", 
+                				(System.currentTimeMillis() - start)
+                		)
+                	);
             }
             method = new PostMethod(statusUrl);
             result = Boolean.valueOf(method.getResponseBodyAsString());
