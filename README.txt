@@ -1,3 +1,13 @@
+If using eclipse, install m2eclipse plugin.
+
+Import -> Maven -> Existing Maven Projects -> Select MockitoExamples folder
+Add the following folders as source folders
+main
+test
+main/properties
+main/resources
+(Optional: change the jre lib to whatever you wish to use)
+
 Test Doubles (Mocking Terminologies) 
  - http://tinyurl.com/testdoubles
  
