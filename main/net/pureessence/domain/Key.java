@@ -1,62 +1,58 @@
 package net.pureessence.domain;
 
 public class Key {
-    private Integer division;
-    private Integer state;
-    private Integer agency;
-    private String policySymbol;
-    private Integer policyNumber;
-    
-    
-    
-    public Key(Integer division, Integer state, Integer agency,
-	    String policySymbol, Integer policyNumber) {
-	super();
-	this.division = division;
-	this.state = state;
-	this.agency = agency;
-	this.policySymbol = policySymbol;
-	this.policyNumber = policyNumber;
-    }
-    
-    public Integer getDivision() {
-        return division;
-    }
-    public void setDivision(Integer division) {
-        this.division = division;
-    }
-    public Integer getState() {
-        return state;
-    }
-    public void setState(Integer state) {
-        this.state = state;
-    }
-    public Integer getAgency() {
-        return agency;
-    }
-    public void setAgency(Integer agency) {
-        this.agency = agency;
-    }
-    public String getPolicySymbol() {
-        return policySymbol;
-    }
-    public void setPolicySymbol(String policySymbol) {
-        this.policySymbol = policySymbol;
-    }
-    public Integer getPolicyNumber() {
-        return policyNumber;
-    }
-    public void setPolicyNumber(Integer policyNumber) {
-        this.policyNumber = policyNumber;
-    }
-    public String getKeyString() {
-	String keyString = String.format("division '%s', state '%s', agency '%s', policySymbol '%s', policyNumber '%s'",
-            		getDivision(),
-            		getState(),
-            		getAgency(),
-            		getPolicySymbol(),
-            		getPolicyNumber()
-		);
-	return keyString;
-    }
+	private Integer state;
+	private Integer postalCode;
+	private String storeSymbol;
+	private Integer storeNumber;
+
+	public Key(Integer state, Integer postalCode, String storeSymbol, Integer storeNumber) {
+		super();
+		this.state = state;
+		this.postalCode = postalCode;
+		this.storeSymbol = storeSymbol;
+		this.storeNumber = storeNumber;
+	}
+
+	public Integer getState() {
+		return state;
+	}
+
+	public void setState(Integer state) {
+		this.state = state;
+	}
+
+	public Integer getPostalCode() {
+		return postalCode;
+	}
+
+	public void setPostalCode(Integer postalCode) {
+		this.postalCode = postalCode;
+	}
+
+	public String getStoreSymbol() {
+		return storeSymbol;
+	}
+
+	public void setStoreSymbol(String storeSymbol) {
+		this.storeSymbol = storeSymbol;
+	}
+
+	public Integer getStoreNumber() {
+		return storeNumber;
+	}
+
+	public void setStoreNumber(Integer storeNumber) {
+		this.storeNumber = storeNumber;
+	}
+
+	public String getKeyString() {
+		String keyString = String
+				.format("state '%s', postalCode '%s', storeSymbol '%s', storeNumber '%s'",
+						getState(),
+						getPostalCode(),
+						getStoreSymbol(),
+						getStoreNumber());
+		return keyString;
+	}
 }

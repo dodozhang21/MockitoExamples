@@ -3,6 +3,7 @@ Test Doubles (Mocking Terminologies)
  
 Mockito Blog Entry by Its Author
  - http://monkeyisland.pl/2008/01/14/mockito/
+ 
 Latest Mockito API
  - http://mockito.googlecode.com/svn/tags/latest/javadoc/org/mockito/Mockito.html
  
@@ -11,7 +12,6 @@ More in Mockito Matchers
  
 Aspect Oriented Programming with Spring
  - http://static.springsource.org/spring/docs/3.0.x/reference/aop.html
+ 
 PowerMock API
  - http://code.google.com/p/powermock/wiki/MockitoUsage13
-MockitoExamples Git Repository
- - https://github.com/dodozhang21/MockitoExamples
