@@ -8,6 +8,10 @@ main/properties
 main/resources
 (Optional: change the jre lib to whatever you wish to use)
 
+When you run the entire test source folder as JUnit, the only test should fail is ExampleServiceTest.testDoSomething() due to the bug http://code.google.com/p/mockito/issues/detail?id=262 for version 1.8.5.  I hope to see it pass once a new version of Mockito is released. 
+ 
+I welcome forking.
+
 Test Doubles (Mocking Terminologies) 
  - http://tinyurl.com/testdoubles
  
