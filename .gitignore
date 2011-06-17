@@ -1,7 +1,5 @@
 target/
 .idea/
-.settings/
 MockitoExamples.iml
 MockitoExamples.ipr
 MockitoExamples.iws
-.cvsignore

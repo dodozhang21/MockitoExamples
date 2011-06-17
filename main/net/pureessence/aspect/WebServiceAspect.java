@@ -15,7 +15,7 @@ public class WebServiceAspect {
         try {
             result = (String)pjp.proceed();
         } catch(Throwable t) {
-            log.error(String.format("web service get job status failed"), t);
+            log.error("web service get job status failed", t);
         }
         return result;
     }

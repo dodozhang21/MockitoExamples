@@ -11,7 +11,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class SearchDao extends JdbcDaoSupport {
     public List<Record> getRecordsByKey(Key key) {
-	// implementation is not required for Mockito to work
-	return null;
+		// implementation is not required for Mockito to work
+		return null;
     }
 }

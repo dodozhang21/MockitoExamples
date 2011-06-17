@@ -5,6 +5,7 @@ public class Person {
     private Long id;
     private String firstName;
     private String lastName;
+    private boolean deleted;
 
     public Long getId() {
         return id;
@@ -29,4 +30,12 @@ public class Person {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
+
+	public boolean isDeleted() {
+		return deleted;
+	}
+
+	public void setDeleted(boolean deleted) {
+		this.deleted = deleted;
+	}
 }

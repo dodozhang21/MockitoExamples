@@ -48,19 +48,14 @@ public class CustomMatcherExampleTest {
 		Record r2 = mock(Record.class);
 		
 		// mocking
-		when(
-			searchDao.getRecordsByKey(
-					argThat(new KeyStatePostalCodeMatcher(state, postalCode))
-				)
-			).thenReturn(Arrays.asList(r1, r2)
-		);
+		when(searchDao.getRecordsByKey(argThat(new KeyStatePostalCodeMatcher(state, postalCode)))).thenReturn(Arrays.asList(r1, r2));
 	
 		// -----act
 		Record matchingRecord = example.getClosetMatchingRecord(keys);
 	
 		// -----assert
-		// should log exactly 3 times
 		verify(log, times(3)).info("Found '2' records");
+		verify(log, times(1)).info("Found '0' records");
 		assertNotNull(matchingRecord);
     }
 

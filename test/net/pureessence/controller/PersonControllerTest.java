@@ -36,6 +36,7 @@ public class PersonControllerTest {
     @SuppressWarnings({ "unchecked", "rawtypes" })
 	@Test
     public void init() {
+    	// arrange
         Person person = new Person();
         person.setFirstName("Misty");
         person.setLastName("Smith");
@@ -43,8 +44,10 @@ public class PersonControllerTest {
         ArgumentCaptor<List> personsCaptor = ArgumentCaptor.forClass(List.class);
         ArgumentCaptor<String> logCaptor = ArgumentCaptor.forClass(String.class);
 
+        // act
         String view = controller.init();
 
+        // assert
         verify(personForm).setSearchResults(personsCaptor.capture());
         verify(log).info(logCaptor.capture());
 
@@ -58,13 +61,16 @@ public class PersonControllerTest {
 
     @Test
     public void saveError() {
+    	// arrange
         BindingResult result = mock(BindingResult.class);
         Person person = mock(Person.class);
         when(result.hasErrors()).thenReturn(true);
         ArgumentCaptor<String> logCaptor = ArgumentCaptor.forClass(String.class);
 
+        // act
         String view = controller.add(person, result);
 
+        // assert
         verify(log).info(logCaptor.capture());
 //        verify(log, times(2)).info(logCaptor.capture());
         verifyZeroInteractions(personDao);
@@ -80,15 +86,25 @@ public class PersonControllerTest {
 
     @Test
     public void delete() {
+    	// arrange
         ArgumentCaptor<String> logCaptor = ArgumentCaptor.forClass(String.class);
+        ArgumentCaptor<Person> personCaptor = ArgumentCaptor.forClass(Person.class);
+        Long personId = 124L;
+        Person personToDelete = new Person(); // use a test stub instead of a mock
+		when(personDao.get(personId)).thenReturn(personToDelete);
 
-        String view = controller.delete(1L);
+        // act
+        String view = controller.delete(personId);
 
-        verify(personDao).get(1L);
-        verify(personDao).delete((Person) any());
+        // assert
+        verify(personDao).get(personId);
+        verify(personDao).save(personCaptor.capture());
+        verify(personDao, never()).delete(any(Person.class));
         verify(log, times(2)).info(logCaptor.capture());
 
-        assertEquals("deleted person with id '1'", logCaptor.getAllValues().get(0));
+        assertEquals("verify the private deletePerson method has updated the deleted flag on person", 
+        		true, 
+        		personCaptor.getValue().isDeleted());
         assertEquals("redirecting to persons", logCaptor.getAllValues().get(1));
         assertEquals("redirect:/persons", view);
     }

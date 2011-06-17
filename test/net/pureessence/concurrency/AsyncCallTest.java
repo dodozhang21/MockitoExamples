@@ -33,22 +33,22 @@ public class AsyncCallTest {
 
     @Test
     public void testGetPdf() {
-	// arrange
-	when(taskExecutor.submit(any(GetPdf.class))).thenAnswer(new Answer<Future<String>>() {
-	    public Future<String> answer(InvocationOnMock invocation) throws Throwable {
-		Future<String> future = mock(FutureTask.class);
-		when(future.isDone()).thenReturn(false, false, true);
-		when(future.get()).thenReturn("Ran");
-		return future;
-	    }
-	});
-	
-	// act
-	asyncCall.getPdf(1);
-	
-	// assert
-	verify(log, times(2)).info("Task not yet completed.");
-	verify(log).info("after the call #1");
-	verify(log).info("Ran");
+		// arrange
+		when(taskExecutor.submit(any(GetPdf.class))).thenAnswer(new Answer<Future<String>>() {
+		    public Future<String> answer(InvocationOnMock invocation) throws Throwable {
+				Future<String> future = mock(FutureTask.class);
+				when(future.isDone()).thenReturn(false, false, true);
+				when(future.get()).thenReturn("This is a test");
+				return future;
+		    }
+		});
+		
+		// act
+		asyncCall.getPdf(1);
+		
+		// assert
+		verify(log, times(2)).info("Task not yet completed.");
+		verify(log).info("after the call #1");
+		verify(log).info("This is a test");
     }
 }

@@ -46,11 +46,11 @@ public class WebServiceCallerTest {
 //    	when(postMethod.getResponseBodyAsString()).thenReturn("false");
     	
         when(httpMethodHelper.createPostMethod(STATUS_URL).getResponseBodyAsString()).thenReturn(
-        																					"false", 
-																			        		"false", 
-																			        		"false", 
-																			        		"false", 
-																			        		"true");
+    																					"false", 
+																		        		"false", 
+																		        		"false", 
+																		        		"false", 
+																		        		"true");
 
         boolean result = webServiceCaller.isJobFinished();
         assertTrue(result);

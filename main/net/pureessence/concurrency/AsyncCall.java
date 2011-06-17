@@ -1,13 +1,13 @@
 package net.pureessence.concurrency;
 
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
+
 import org.apache.commons.logging.Log;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.stereotype.Component;
-
-import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.Future;
 
 
 @Component
@@ -25,8 +25,7 @@ public class AsyncCall {
             try {
                 Thread.sleep(500);
             } catch (InterruptedException ie) {
-                log.info("Will" +
-                        " check after 1/2 sec.");
+                log.info("Will check after 1/2 sec.");
             }
         }
         log.info(String.format("after the call #%s", number));
